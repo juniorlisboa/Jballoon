@@ -1,0 +1,57 @@
+.elementtask {
+	position: inline;
+	text-decoration: none;
+	background: #155491;
+	width: 125px;
+	border-radius: 3px;
+	border-radius: 3px;
+	word-wrap: break-word;
+	opacity: 0.7;
+	color: #FFF;
+	content: attr(tooltip);
+	display: block;
+	left: 50%;
+	padding: 5px 15px;
+	z-index: 98;
+	margin-left: 5%;
+  	margin-top: -4px;
+	font-family: sans-serif;
+	font-size: 11px;
+}
+.elementtask:before{ 
+	border: solid;
+	border-color: #155491 transparent;
+	margin-top: -11px;
+	border-width: 0 6px 6px 6px;
+	width: 0px;
+	content: "";
+	display: block;
+	left: 75%;
+	position: inline;
+	z-index: 99;
+}
+
+.closepop{
+  float: right;
+  cursor: pointer;
+  margin-top: -12px;
+}
+
+.elementtask legend{
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-left: -2px;
+  font-style: italic;
+}
+
+.red{
+	background: #911515 !important;
+}
+
+.blue{
+	background: #155491 !important;
+}
+
+.green{
+	background: #15916B !important;
+}
